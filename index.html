@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="src/imagens/icon-table.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <title>Table</title>
+  </head>
+  <body>
+    <div class="table-widget">
+      <table>
+        <caption>
+          Team Members
+          <span class="table-row-count"></span>
+        </caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>E-mail address</th>
+            <th>Tag</th>
+          </tr>
+        </thead>
+        <tbody id="team-member-rows">
+          <!--? linhas são geradas -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <ul class="pagination">
+                      <!--? páginas geradas -->
+                    </ul> 
+                </td>
+            </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script src="src/java/script.js"></script>
+  </body>
+</html>
